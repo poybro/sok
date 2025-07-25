@@ -1,0 +1,35 @@
+2025-07-24 15:36:17,425 [ChainAuditor] [INFO] - Đang tìm node đáng tin cậy nhất để kiểm toán...
+2025-07-24 15:36:22,439 [ChainAuditor] [INFO] - Đã chọn node tốt nhất để kiểm toán: http://192.168.1.221:5791 (Chiều cao: 140)
+2025-07-24 15:36:22,439 [ChainAuditor] [INFO] - Đang tải toàn bộ blockchain từ http://192.168.1.221:5791...
+2025-07-24 15:36:22,459 [ChainAuditor] [INFO] - Bắt đầu phân tích 141 khối...
+2025-07-24 15:36:22,459 [ChainAuditor] [ERROR] - Lỗi nghiêm trọng trong vòng lặp chính: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\virtual\ΣOKchain_Botminer\ChainAuditorAgent.py", line 184, in run
+    self.perform_full_audit()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\virtual\ΣOKchain_Botminer\ChainAuditorAgent.py", line 133, in perform_full_audit
+    sender = tx['sender']
+             ~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-07-24 15:37:22,469 [ChainAuditor] [INFO] - Đang tìm node đáng tin cậy nhất để kiểm toán...
+2025-07-24 15:37:27,485 [ChainAuditor] [INFO] - Đã chọn node tốt nhất để kiểm toán: http://192.168.1.221:5791 (Chiều cao: 140)
+2025-07-24 15:37:27,485 [ChainAuditor] [INFO] - Đang tải toàn bộ blockchain từ http://192.168.1.221:5791...
+2025-07-24 15:37:27,509 [ChainAuditor] [INFO] - Bắt đầu phân tích 141 khối...
+2025-07-24 15:37:27,509 [ChainAuditor] [ERROR] - Lỗi nghiêm trọng trong vòng lặp chính: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\virtual\ΣOKchain_Botminer\ChainAuditorAgent.py", line 184, in run
+    self.perform_full_audit()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\virtual\ΣOKchain_Botminer\ChainAuditorAgent.py", line 133, in perform_full_audit
+    sender = tx['sender']
+             ~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-07-24 15:38:27,511 [ChainAuditor] [INFO] - Đang tìm node đáng tin cậy nhất để kiểm toán...
+2025-07-24 15:38:37,515 [ChainAuditor] [ERROR] - Không tìm thấy node nào đang hoạt động để thực hiện kiểm toán.
+2025-07-24 15:38:37,516 [ChainAuditor] [INFO] - Kiểm toán hoàn tất. Sẽ chạy lại sau 300 giây.
+2025-07-24 15:43:37,517 [ChainAuditor] [INFO] - Đang tìm node đáng tin cậy nhất để kiểm toán...
+2025-07-24 15:43:47,524 [ChainAuditor] [ERROR] - Không tìm thấy node nào đang hoạt động để thực hiện kiểm toán.
+2025-07-24 15:43:47,525 [ChainAuditor] [INFO] - Kiểm toán hoàn tất. Sẽ chạy lại sau 300 giây.
+2025-07-24 15:48:47,527 [ChainAuditor] [INFO] - Đang tìm node đáng tin cậy nhất để kiểm toán...
+2025-07-24 15:48:57,534 [ChainAuditor] [ERROR] - Không tìm thấy node nào đang hoạt động để thực hiện kiểm toán.
+2025-07-24 15:48:57,534 [ChainAuditor] [INFO] - Kiểm toán hoàn tất. Sẽ chạy lại sau 300 giây.
